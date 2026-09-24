@@ -1,0 +1,25 @@
+name: dio_essentials
+description: >-
+  Production-grade Dio interceptors: request dedup with short TTL cache, safe
+  retry with jittered backoff and Retry-After, single-flight auth refresh, and
+  a redacting logger.
+version: 0.1.0
+homepage: https://abdeldjalilchougui.biz/
+repository: https://github.com/AbeldjalilChougui/dio_essentials
+issue_tracker: https://github.com/AbeldjalilChougui/dio_essentials/issues
+topics:
+  - dio
+  - http
+  - network
+  - interceptor
+  - retry
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  dio: ^5.4.0
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.0
